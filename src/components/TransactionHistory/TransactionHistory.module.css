@@ -1,0 +1,29 @@
+.table {
+  width: 280px;
+  border-collapse: collapse;
+}
+
+.tableHead {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(42, 42, 42, 1);
+  border: 1px solid #000;
+}
+
+.tableHead th {
+  padding: 10px;
+  text-align: center;
+}
+
+.tableBody td {
+  padding: 10px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.tableBody tr:nth-child(even) {
+  background-color: #d1d1d1;
+}
+
+.tableRow:first-child {
+  text-transform: capitalize;
+}
